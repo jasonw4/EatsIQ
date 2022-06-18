@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #FFA69E;
+}
+
+#navtitle{
+    color: #FFA69E;
+    font-weight: bold;
+    font-family: "Monaco";
+}
+
+a:hover {
+    color: #DDFFF7;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul{
+    float: right;
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-family: "Monaco";
+
+}
+
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: #93E1D8;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+form{
+    color: #FFA69E;
+    font-weight: bold;
+    font-family: "Monaco";
+    background-color: #DDFFF7;
+    padding-bottom: 50rem;
+    
+}

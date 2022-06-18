@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+}
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #FFA69E;
+}
+
+#navtitle{
+    color: #FFA69E;
+    font-weight: bold;
+    font-family: "Monaco";
+}
+
+a:hover {
+    color: #DDFFF7;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul{
+    float: right;
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-family: "Monaco";
+
+}
+
+#intro h2{
+    font-size: 36px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: #93E1D8;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+#intro {
+    color: #FFA69E;
+    font-family: "Monaco";
+    font-size: 135px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background: #DDFFF7;
+	background-size: 400% 400%;
+
+}
+
+#description {
+    color: #FFA69E;
+    background: #DDFFF7;
+    font-family: "Monaco";
+    padding-bottom: 10rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+#imglinks {
+    background-color: #DDFFF7;
+    text-align: center;
+    gap: 6rem;
+    padding-bottom: 10rem;
+}
+
+.img {
+    height: 200px;
+    width: 300px;
+    background: #DDFFF7 ;
+}
+
+.icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform .2s;
+}
+.icon-card:hover{
+    transform: scale(1.25);
+}
+
+#button {
+    color: #FFA69E;
+    background: #DDFFF7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+#button button{
+    height: 100px;
+    width: 300px;
+    font-family: "Monaco";
+    font-size: 30px;
+    color: #FFA69E;
+}
